@@ -7,8 +7,8 @@ To use, add this to your configuration:
 ```yaml
 external_components:
     - source: github://epiclabs-uc/esphome-nowatchdog-component@master
-    refresh: 60s
-    components:
+      refresh: 60s
+      components:
         - no_watchdog
 ```
 
